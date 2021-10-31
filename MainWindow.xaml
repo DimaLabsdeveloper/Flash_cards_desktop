@@ -1,0 +1,22 @@
+﻿<Window x:Class="applernnewwords.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:applernnewwords"
+        mc:Ignorable="d"
+        Title="Flash cards" Height="382.8" Width="575.6" ResizeMode="CanMinimize" Icon="img/logoflash cards2.png" Background="#FF7B90CB" Foreground="Transparent" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid x:Name="menu" HorizontalAlignment="Left" Height="351" Margin="1,1,0,0" VerticalAlignment="Top" Width="117" Background="#FF3771B9">
+            <Label Content="Меню" HorizontalAlignment="Left" Margin="36,5,0,0" VerticalAlignment="Top" Foreground="White"/>
+            <Button x:Name="_newWords" Content="Нові слова" HorizontalAlignment="Left" Margin="20,39,0,0" VerticalAlignment="Top" Width="80" Background="#FF3771B9" Foreground="White" BorderBrush="#FF3771B9" Click="NewWords_Click"/>
+            <Button x:Name="irg" Content="Irregular verbs" HorizontalAlignment="Left" Margin="12,67,0,0" VerticalAlignment="Top" Width="92" Background="#FF3771B9" BorderBrush="#00C88383" Foreground="White" Click="IrgWords_Click"/>
+            <Button x:Name="set" Content="Налаштування" HorizontalAlignment="Left" Margin="12,288,0,0" VerticalAlignment="Top" Width="92" Background="#00C88383" BorderBrush="#00020000" Foreground="White" Click="Set_Click"/>
+            <Button x:Name="proProg" Content="Про програму" HorizontalAlignment="Left" Margin="15,310,0,0" VerticalAlignment="Top" Width="89" Background="#FF3771B9" BorderBrush="#FF3771B9" Foreground="White" Click="proProg_Click"/>
+            <Button x:Name="MyWords" Content="Мої слова" HorizontalAlignment="Left" Margin="20,94,0,0" VerticalAlignment="Top" Width="75" Background="#FF3771B9" BorderBrush="#FF3771B9" Foreground="White" Click="MyWords_Click"/>
+        </Grid>
+        <Label Content="Ця програма створена для  того, щоб вам" HorizontalAlignment="Left" Margin="183,121,0,0" VerticalAlignment="Top" FontSize="14" Height="31" Width="294"/>
+        <Label Content=" допомогти вивчити англійську мову " HorizontalAlignment="Left" Margin="202,153,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Image HorizontalAlignment="Left" Height="74" Margin="294,29,0,0" VerticalAlignment="Top" Width="83" Source="img/logoflash cards2.png" RenderTransformOrigin="0.735,0.662"/>
+    </Grid>
+</Window>
